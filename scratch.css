@@ -1,0 +1,99 @@
+/* General body styles */
+body {
+    background-color: #f0f0f0; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Default font family */
+    color: #333; /* Default font color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #1d2b64; /* March Madness blue color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* White font color for links */
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #ff9900; /* Orange hover effect */
+}
+
+/* Header styles */
+header {
+    background-color: #ff9900; /* Orange header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styled box for content */
+.styled-box {
+    background-color: #ffffff; /* White box background */
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and content section styles */
+#intro {
+    background-color: #1d2b64; /* Dark blue background for intro section */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+#topTeams, #history-section {
+    background-color: #f9f9f9; /* Light grey background */
+    border-left: 5px solid #ff9900; /* March Madness orange border */
+}
+
+#topTeams h2, #history-section h2 {
+    font-size: 24px;
+    color: #1d2b64; /* March Madness blue for headings */
+}
+
+#topTeams ol, #topTeams ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* YouTube video section styling */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
+
+/* Image styling for fan section */
+.styled-box img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1d2b64; /* March Madness blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ff9900; /* Orange link color in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
